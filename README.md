@@ -21,6 +21,7 @@ assets/fonts/*.woff2       Inter incrustada en local (SIL OFL 1.1)
 assets/icons/*.svg         iconos sueltos, archivos fuente
 assets/img/                fotos del vehiculo + QR y codigo de barras en SVG
 
+pdf/DulceAuto-*.pdf        los tres PDF A4 ya generados
 textos/textos-*.txt        textos fuente de cada version (origen de la verdad)
 calibrar-impresion.py      recalcula el ajuste de impresion de cada idioma
 extraer-textos.py          saca todos los textos traducibles de una version
