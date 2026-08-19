@@ -67,6 +67,22 @@ def parse_translations(path):
     return out
 
 
+# lxml serializa en HTML y pasa a minusculas los nombres de atributo. En SVG
+# eso importa: "viewBox" en camelCase es obligatorio. El parser HTML de los
+# navegadores lo corrige solo, asi que en pantalla no se nota, pero un parser
+# XML estricto o segun que generador de PDF de servidor se lo salta y los
+# iconos dejan de escalar. Se restaura al escribir el archivo.
+SVG_CAMEL = ["viewBox", "preserveAspectRatio", "patternUnits", "gradientUnits",
+             "gradientTransform", "clipPathUnits", "markerWidth", "markerHeight",
+             "refX", "refY", "baseProfile", "textLength", "startOffset"]
+
+
+def fix_svg_case(html_text):
+    for attr in SVG_CAMEL:
+        html_text = re.sub(rf"\b{attr.lower()}=", f"{attr}=", html_text)
+    return html_text
+
+
 def build(txt_path, out_path, lang):
     tr = parse_translations(txt_path)
     doc = LH.parse(TEMPLATE).getroot()
@@ -147,7 +163,8 @@ def build(txt_path, out_path, lang):
     doc.set("lang", lang)
     out = pathlib.Path(out_path)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text("<!doctype html>\n" + LH.tostring(doc, encoding="unicode"), encoding="utf-8")
+    out.write_text("<!doctype html>\n" + fix_svg_case(LH.tostring(doc, encoding="unicode")),
+                   encoding="utf-8")
 
     unused = sorted(set(tr) - used)
     print(f"{out_path}  (lang={lang})")
