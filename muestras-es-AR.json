@@ -8,8 +8,9 @@
   "banco": "BBVA Argentina",
   "beneficiario": "DulceAuto Argentina S.A.",
   "clabe": "0123456789012345678901",
-  "precio_vehiculo": "$329,000.00 ARS",
+  "precio_vehiculo": "$329.000,00 ARS",
   "moneda": "ARS",
   "agente_telefono": "+54 11 9876 5432",
-  "agente_email": "soporte@dulceauto.com.ar"
+  "agente_email": "soporte@dulceauto.com.ar",
+  "importe": "$3.240,00"
 }

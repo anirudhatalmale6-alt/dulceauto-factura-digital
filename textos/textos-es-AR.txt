@@ -1,0 +1,263 @@
+TEXTOS PARA IMPLEMENTAR — Español Argentina (es-AR)
+95 textos fijos  |  28 valores dinamicos (no traducir, vienen de BBDD)
+==============================================================================
+
+
+--- CABECERA --------------------------------------------------------------
+cabecera.pre_factura_de_reserva
+    Pre-factura de reserva
+cabecera.folio
+    Folio:
+cabecera.fecha
+    Fecha:
+
+--- INTRO -----------------------------------------------------------------
+intro.tu_veh_culo_est_pre_reservado
+    Tu vehículo está pre-reservado
+intro.confirma_el_pago_para_iniciar_la_validac
+    Confirmá el pago para iniciar la validación de la operación y continuar con la coordinación de la entrega.
+intro.entrega
+    Entrega
+intro.pre_reserva_confirmada
+    Pre-reserva confirmada
+intro.pago_pendiente_2
+    Pago pendiente
+intro.documentaci_n_y_tr_mites
+    Documentación y trámites
+intro.entrega_coordinada
+    Entrega coordinada
+
+--- CLIENTE ---------------------------------------------------------------
+cliente.informaci_n_del_cliente
+    Información del cliente
+cliente.nombre
+    Nombre
+cliente.email
+    Email
+cliente.tel_fono
+    Teléfono
+cliente.ciudad
+    Ciudad
+
+--- DOCUMENTACION ---------------------------------------------------------
+documentacion.documentaci_n_incluida
+    Documentación incluida
+documentacion.factura_de_origen_verificada
+    Título del automotor verificado
+documentacion.constancia_de_no_adeudo
+    Certificado de libre deuda
+documentacion.tenencias_al_corriente
+    Patente al día
+documentacion.reporte_repuve
+    Informe de dominio vehicular
+
+--- TRANSACCION -----------------------------------------------------------
+transaccion.informaci_n_de_la_transacci_n
+    INFORMACIÓN DE LA TRANSACCIÓN
+transaccion.folio
+    Folio
+transaccion.vigencia_de_la_protecci_n
+    Vigencia de la protección
+transaccion.autorizaci_n
+    Autorización
+transaccion.estado_actual
+    Estado actual
+
+--- VEHICULO --------------------------------------------------------------
+vehiculo.veh_culo_verificado
+    VEHÍCULO VERIFICADO
+vehiculo.por_carfax
+    por CARFAX
+vehiculo.reporte
+    INFORME
+vehiculo.compra_segura
+    COMPRA SEGURA
+vehiculo.modalidad_de_entrega
+    Modalidad de entrega
+vehiculo.entrega_a_domicilio_transporte_terrestre
+    Entrega a domicilio (transporte terrestre asegurado)
+vehiculo.traslado_asegurado_hasta_el_domicilio_re
+    Traslado asegurado hasta el domicilio registrado.
+vehiculo.entrega_en_una_sede_o_concesionario_cerc
+    Entrega en una sede o concesionario cercano
+vehiculo.tambi_n_puedes_solicitar_la_entrega_en_u
+    También podés solicitar la entrega en una sede o concesionario cercano, sin cargos adicionales. La disponibilidad, ubicación y los detalles de entrega se confirmarán durante la coordinación.
+vehiculo.si_el_veh_culo_no_coincide_con_la_inform
+    Si el vehículo no coincide con la información indicada en esta pre-factura, se aplicarán los términos de cancelación correspondientes.
+vehiculo.a_o
+    Año
+vehiculo.tipo
+    Tipo
+vehiculo.kilometraje
+    Kilometraje
+vehiculo.combustible
+    Combustible
+vehiculo.transmisi_n
+    Transmisión
+
+--- OPERACION -------------------------------------------------------------
+operacion.resumen_de_la_operaci_n
+    Resumen de la operación
+operacion.concepto
+    Concepto
+operacion.cantidad
+    Cantidad
+operacion.importe
+    Importe
+operacion.seguro_de_cobertura_amplia
+    Seguro de cobertura amplia
+operacion.incluido
+    Incluido
+operacion.transporte_terrestre
+    Transporte terrestre
+operacion.incluido_2
+    Incluido
+operacion.importe_de_pre_reserva
+    IMPORTE DE PRE-RESERVA
+operacion.se_descontar_del_precio_final
+    SE DESCONTARÁ DEL PRECIO FINAL
+operacion.el_importe_de_la_pre_reserva_confirma_la
+    El importe de la pre-reserva confirma la reserva del vehículo y se descontará del precio final de la operación. El transporte terrestre asegurado está incluido.
+
+--- TRANSFERENCIA ---------------------------------------------------------
+transferencia.datos_para_realizar_tu_transferencia_spe
+    Datos para realizar tu transferencia bancaria
+transferencia.banco_receptor
+    Banco receptor
+transferencia.beneficiario
+    Beneficiario
+transferencia.referencia_de_pago
+    Referencia de pago
+transferencia.clabe_interbancaria_18_d_gitos
+    CBU (22 dígitos)
+transferencia.cuenta_bancaria
+    Cuenta bancaria
+
+--- FAQ -------------------------------------------------------------------
+faq.preguntas_frecuentes
+    Preguntas frecuentes
+faq.1_el_precio_indicado_incluye_comisiones_
+    1. ¿El precio indicado incluye comisiones y gastos adicionales?
+faq.s_el_propietario_cubre_los_gastos_relaci
+    Sí. El propietario cubre los gastos relacionados con la operación, incluyendo la gestión administrativa y la entrega en una sede cercana o el transporte asegurado a domicilio. El único importe a abonar es el indicado en la factura, sin cargos adicionales.
+faq.2_puedo_revisar_el_veh_culo_antes_de_ace
+    2. ¿Puedo revisar el vehículo antes de aceptar la entrega?
+faq.s_al_recibir_el_veh_culo_puedes_revisarl
+    Sí. Al recibir el vehículo, podés revisarlo personalmente o con un mecánico de confianza. Si no estás conforme, avisale al representante asignado antes de finalizar la operación.
+faq.3_puedo_solicitar_la_entrega_en_una_dire
+    3. ¿Puedo solicitar la entrega en una dirección distinta a la registrada en mi DNI?
+faq.s_despu_s_de_confirmar_la_pre_reserva_pu
+    Sí. Después de confirmar la pre-reserva, podés enviar el comprobante y la dirección donde querés recibir el vehículo. También podés solicitar la entrega en una sede o concesionario cercano, sujeto a disponibilidad.
+
+--- PROTECCION ------------------------------------------------------------
+proteccion.protecci_n_y_verificaci_n
+    Protección y verificación
+proteccion.compra_protegida
+    Compra protegida
+proteccion.transacci_n_supervisada
+    Transacción supervisada
+proteccion.validaci_n_ante_autoridades
+    Validación ante autoridades
+proteccion.inspecci_n_vehicular
+    Inspección vehicular
+proteccion.revisi_n_de_150_puntos
+    Revisión de 150 puntos
+proteccion.diagn_stico_mec_nico
+    Diagnóstico mecánico
+
+--- RESPALDO --------------------------------------------------------------
+respaldo.informaci_n_clave_que_respalda_tu_compra
+    Información clave que respalda tu compra.
+respaldo.protecci_n_del_importe
+    PROTECCIÓN DEL IMPORTE
+respaldo.el_pago_permanece_protegido_mientras_val
+    El pago permanece protegido mientras validamos la operación.
+respaldo.liberaci_n_segura
+    LIBERACIÓN SEGURA
+respaldo.el_pago_se_libera_una_vez_confirmada_la_
+    El pago se libera una vez confirmada la recepción del vehículo.
+respaldo.transacci_n_supervisada
+    TRANSACCIÓN SUPERVISADA
+respaldo.dulceauto_supervisa_y_verifica_el_proces
+    DulceAuto supervisa y verifica el proceso de pago.
+respaldo.inspecci_n_vehicular_completada
+    INSPECCIÓN VEHICULAR COMPLETADA
+respaldo.revisi_n_est_tica_mec_nica_y_documental_
+    Revisión estética, mecánica y documental completada y registrada.
+
+--- QR --------------------------------------------------------------------
+qr.escanea_para_verificar
+    Escaneá para verificar
+
+--- REPRESENTANTE ---------------------------------------------------------
+representante.tu_representante_asignado
+    Tu representante asignado
+representante.representante_de_operaciones
+    Representante de operaciones
+
+--- LEGAL -----------------------------------------------------------------
+legal.esta_pre_factura_se_emite_exclusivamente
+    Esta pre-factura se emite exclusivamente a nombre de
+legal.y_es_de_uso_personal_e_intransferible_la
+    y es de uso personal e intransferible. La información contenida en este documento deberá utilizarse únicamente para el propósito indicado. Queda estrictamente prohibida cualquier distribución, reproducción o uso distinto al autorizado.
+
+--- CABECERA --------------------------------------------------------------
+cabecera.dulceauto  [texto alternativo]
+    DulceAuto
+cabecera.c_digo_de_barras_del_folio_res_87241  [texto alternativo]
+    Código de barras del folio RES-87241
+
+--- INTRO -----------------------------------------------------------------
+intro.progreso_de_la_pre_reserva  [texto alternativo]
+    Progreso de la pre-reserva
+
+--- VEHICULO --------------------------------------------------------------
+vehiculo.vista_principal_del_audi_a3_plateado  [texto alternativo]
+    Vista principal del Audi A3 plateado
+vehiculo.galer_a_del_veh_culo  [texto alternativo]
+    Galería del vehículo
+vehiculo.vista_trasera_del_audi_a3  [texto alternativo]
+    Vista trasera del Audi A3
+vehiculo.interior_del_audi_a3  [texto alternativo]
+    Interior del Audi A3
+vehiculo.vista_exterior_del_audi_a3  [texto alternativo]
+    Vista exterior del Audi A3
+
+--- QR --------------------------------------------------------------------
+qr.verificar_la_reserva_res_87241  [texto alternativo]
+    Verificar la reserva RES-87241
+qr.c_digo_qr_para_verificar_la_reserva_res_  [texto alternativo]
+    Código QR para verificar la reserva RES-87241
+
+
+==============================================================================
+VALORES DINAMICOS — no hace falta traducirlos, los pondra el backend:
+
+  {{folio}}   ejemplo actual: RES-87241
+  {{fecha_emision}}   ejemplo actual: 22 Jul 2026
+  {{estado}}   ejemplo actual: PAGO PENDIENTE
+  {{fecha_entrega}}   ejemplo actual: 27 de julio de 2026
+  {{cliente_nombre}}   ejemplo actual: Juan Pérez García
+  {{cliente_email}}   ejemplo actual: juan.perez@gmail.com
+  {{cliente_ciudad}}   ejemplo actual: Veracruz
+  {{folio}}   ejemplo actual: RES-87241
+  {{autorizacion}}   ejemplo actual: AUT-2026-87241
+  {{estado}}   ejemplo actual: Pago pendiente
+  {{vin}}   ejemplo actual: 19UTC2895KL500992
+  {{vehiculo}}   ejemplo actual: 2015 Audi A3 1.8T S Line Convertible AT
+  {{vehiculo_ubicacion}}   ejemplo actual: Ciudad de México
+  {{tipo}}   ejemplo actual: Convertible
+  {{kilometraje}}   ejemplo actual: 16,678 km
+  {{combustible}}   ejemplo actual: Gasolina
+  {{transmision}}   ejemplo actual: Automática
+  {{descuento}}   ejemplo actual: 9% DE DESCUENTO APLICADO
+  {{vehiculo}}   ejemplo actual: 2015 Audi A3 1.8T S Line Convertible AT
+  {{precio_vehiculo}}   ejemplo actual: $329,000.00 MXN
+  {{banco}}   ejemplo actual: BBVA México
+  {{beneficiario}}   ejemplo actual: DulceAuto México S.A. de C.V.
+  {{folio}}   ejemplo actual: RES-87241
+  {{agente_iniciales}}   ejemplo actual: YC
+  {{agente_nombre}}   ejemplo actual: Yoselina de la Cruz
+  {{agente_horario}}   ejemplo actual: Lunes a viernes, 8:00 a. m.–4:00 p. m.
+  {{agente_email}}   ejemplo actual: soporte@dulceauto.mx
+  {{cliente_nombre}}   ejemplo actual: Juan Pérez García

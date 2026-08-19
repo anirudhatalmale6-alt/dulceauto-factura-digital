@@ -1,0 +1,70 @@
+TEXTOS es-MX — sincronizacion de redaccion con EN y es-AR
+Solo las claves que cambian. Las que no aparecen se quedan como estaban.
+Se conserva la terminologia mexicana: REPUVE, CLABE, SPEI, INE, tenencias.
+==============================================================================
+
+--- INTRO -----------------------------------------------------------------
+intro.tu_veh_culo_est_reservado
+    Tu vehículo está pre-reservado
+intro.confirma_el_pago_para_iniciar_la_validac
+    Confirma el pago para iniciar la validación de la operación y continuar con la coordinación de la entrega.
+intro.reserva_confirmada
+    Pre-reserva confirmada
+intro.progreso_de_la_reserva
+    Progreso de la pre-reserva
+
+--- TRANSACCION -----------------------------------------------------------
+transaccion.vigencia_protecci_n
+    Vigencia de la protección
+
+--- VEHICULO --------------------------------------------------------------
+vehiculo.entrega_a_domicilio_transporte_terrestre
+    Entrega a domicilio (transporte terrestre asegurado)
+vehiculo.puedes_solicitar_la_entrega_en_una_sede_
+    También puedes solicitar la entrega en una sede o concesionario cercano, sin cargos adicionales. La disponibilidad, ubicación y los detalles de entrega se confirmarán durante la coordinación.
+vehiculo.cancelaciones_sujetas_a_los_t_rminos_apl
+    Si el vehículo no coincide con la información indicada en esta pre-factura, se aplicarán los términos de cancelación correspondientes.
+
+--- OPERACION -------------------------------------------------------------
+operacion.el_importe_de_pre_reserva_confirma_el_ap
+    El importe de la pre-reserva confirma la reserva del vehículo y se descontará del precio final de la operación. El transporte terrestre asegurado está incluido.
+
+--- TRANSFERENCIA ---------------------------------------------------------
+transferencia.cuenta_bancaria
+    Cuenta bancaria
+
+--- FAQ -------------------------------------------------------------------
+faq.1_el_precio_incluye_comisiones_y_gastos_
+    1. ¿El precio indicado incluye comisiones y gastos adicionales?
+faq.s_el_propietario_cubre_los_gastos_relaci
+    Sí. El propietario cubre los gastos relacionados con la operación, incluyendo la gestión administrativa y la entrega en una sede cercana o el transporte asegurado a domicilio. El único importe a pagar es el indicado en la factura, sin cargos adicionales.
+faq.por_supuesto_al_recibirlo_podr_inspeccio
+    Sí. Al recibir el vehículo, puedes revisarlo personalmente o con un mecánico de confianza. Si no estás conforme, avísale al representante asignado antes de finalizar la operación.
+faq.3_puedo_solicitar_la_entrega_en_una_dire
+    3. ¿Puedo solicitar la entrega en una dirección distinta a la registrada en mi INE?
+faq.s_despu_s_de_confirmar_el_apartado_podr_
+    Sí. Después de confirmar la pre-reserva, puedes enviar el comprobante y la dirección donde quieres recibir el vehículo. También puedes solicitar la entrega en una sede o concesionario cercano, sujeto a disponibilidad.
+
+--- PROTECCION ------------------------------------------------------------
+proteccion.revisi_n_150_puntos
+    Revisión de 150 puntos
+
+--- RESPALDO --------------------------------------------------------------
+respaldo.el_pago_se_libera_tras_confirmar_la_rece
+    El pago se libera una vez confirmada la recepción del vehículo.
+respaldo.la_plataforma_de_pagos_dulceauto_verific
+    DulceAuto supervisa y verifica el proceso de pago.
+respaldo.inspecci_n_completada
+    INSPECCIÓN VEHICULAR COMPLETADA
+respaldo.revisi_n_est_tica_mec_nica_y_documental_
+    Revisión estética, mecánica y documental completada y registrada.
+
+--- QR --------------------------------------------------------------------
+qr.escanea_para_verificaci_n
+    Escanea para verificar
+
+--- LEGAL -----------------------------------------------------------------
+legal.esta_pre_factura_est_elaborada_exclusiva
+    Esta pre-factura se emite exclusivamente a nombre de
+legal.y_es_de_uso_personal_e_intransferible_in
+    y es de uso personal e intransferible. La información contenida en este documento deberá utilizarse únicamente para el propósito indicado. Queda estrictamente prohibida cualquier distribución, reproducción o uso distinto al autorizado.

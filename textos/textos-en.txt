@@ -1,0 +1,263 @@
+TEXTOS PARA IMPLEMENTAR — English (EN)
+95 textos fijos  |  28 valores dinamicos (no traducir, vienen de BBDD)
+==============================================================================
+
+
+--- CABECERA --------------------------------------------------------------
+cabecera.pre_factura_de_reserva
+    Vehicle Reservation Proforma Invoice
+cabecera.folio
+    Reference:
+cabecera.fecha
+    Date:
+
+--- INTRO -----------------------------------------------------------------
+intro.tu_veh_culo_est_pre_reservado
+    Your vehicle is pre-reserved
+intro.confirma_el_pago_para_iniciar_la_validac
+    Confirm your payment to begin validating the transaction and continue with delivery coordination.
+intro.entrega
+    Delivery
+intro.pre_reserva_confirmada
+    Pre-reservation confirmed
+intro.pago_pendiente_2
+    Payment pending
+intro.documentaci_n_y_tr_mites
+    Documentation & processing
+intro.entrega_coordinada
+    Delivery coordinated
+
+--- CLIENTE ---------------------------------------------------------------
+cliente.informaci_n_del_cliente
+    Customer information
+cliente.nombre
+    Name
+cliente.email
+    Email
+cliente.tel_fono
+    Phone
+cliente.ciudad
+    City
+
+--- DOCUMENTACION ---------------------------------------------------------
+documentacion.documentaci_n_incluida
+    Included documentation
+documentacion.factura_de_origen_verificada
+    Verified original ownership document
+documentacion.constancia_de_no_adeudo
+    No outstanding debt certificate
+documentacion.tenencias_al_corriente
+    Registration and taxes up to date
+documentacion.reporte_repuve
+    REPUVE Report
+
+--- TRANSACCION -----------------------------------------------------------
+transaccion.informaci_n_de_la_transacci_n
+    TRANSACTION INFORMATION
+transaccion.folio
+    Reference
+transaccion.vigencia_de_la_protecci_n
+    Protection validity
+transaccion.autorizaci_n
+    Authorization
+transaccion.estado_actual
+    Current status
+
+--- VEHICULO --------------------------------------------------------------
+vehiculo.veh_culo_verificado
+    VEHICLE VERIFIED
+vehiculo.por_carfax
+    by CARFAX
+vehiculo.reporte
+    REPORT
+vehiculo.compra_segura
+    SECURE PURCHASE
+vehiculo.modalidad_de_entrega
+    Delivery method
+vehiculo.entrega_a_domicilio_transporte_terrestre
+    Home delivery (insured ground transport)
+vehiculo.traslado_asegurado_hasta_el_domicilio_re
+    Insured transport to the registered address.
+vehiculo.entrega_en_una_sede_o_concesionario_cerc
+    Delivery to a nearby branch or dealership
+vehiculo.tambi_n_puedes_solicitar_la_entrega_en_u
+    You may also request delivery to a nearby available branch or dealership at no additional charge. Availability, location, and delivery details will be confirmed during coordination.
+vehiculo.si_el_veh_culo_no_coincide_con_la_inform
+    If the vehicle does not match the information shown on this proforma invoice, the applicable cancellation terms will apply.
+vehiculo.a_o
+    Year
+vehiculo.tipo
+    Type
+vehiculo.kilometraje
+    Mileage
+vehiculo.combustible
+    Fuel
+vehiculo.transmisi_n
+    Transmission
+
+--- OPERACION -------------------------------------------------------------
+operacion.resumen_de_la_operaci_n
+    Transaction summary
+operacion.concepto
+    Description
+operacion.cantidad
+    Quantity
+operacion.importe
+    Amount
+operacion.seguro_de_cobertura_amplia
+    Comprehensive coverage
+operacion.incluido
+    Included
+operacion.transporte_terrestre
+    Ground transport
+operacion.incluido_2
+    Included
+operacion.importe_de_pre_reserva
+    PRE-RESERVATION AMOUNT
+operacion.se_descontar_del_precio_final
+    WILL BE DEDUCTED FROM THE FINAL PRICE
+operacion.el_importe_de_la_pre_reserva_confirma_la
+    The pre-reservation amount secures the vehicle and will be deducted from the final transaction price. Insured ground transport is included.
+
+--- TRANSFERENCIA ---------------------------------------------------------
+transferencia.datos_para_realizar_tu_transferencia_spe
+    Bank transfer details
+transferencia.banco_receptor
+    Receiving bank
+transferencia.beneficiario
+    Beneficiary
+transferencia.referencia_de_pago
+    Payment reference
+transferencia.clabe_interbancaria_18_d_gitos
+    CLABE (18 digits)
+transferencia.cuenta_bancaria
+    Bank account
+
+--- FAQ -------------------------------------------------------------------
+faq.preguntas_frecuentes
+    Frequently asked questions
+faq.1_el_precio_indicado_incluye_comisiones_
+    1. Does the listed price include commissions and additional fees?
+faq.s_el_propietario_cubre_los_gastos_relaci
+    Yes. The owner covers the costs related to the transaction, including administrative processing and delivery to a nearby location or insured home transport. You will only pay the amount shown on the invoice, with no additional charges.
+faq.2_puedo_revisar_el_veh_culo_antes_de_ace
+    2. Can I inspect the vehicle before accepting delivery?
+faq.s_al_recibir_el_veh_culo_puedes_revisarl
+    Yes. When the vehicle is delivered, you may inspect it personally or with a trusted mechanic. If you are not satisfied, notify your assigned representative before completing the transaction.
+faq.3_puedo_solicitar_la_entrega_en_una_dire
+    3. Can I request delivery to an address different from the one on my ID?
+faq.s_despu_s_de_confirmar_la_pre_reserva_pu
+    Yes. After confirming the pre-reservation, you can send the payment receipt and the address where you would like to receive the vehicle. You may also request delivery to a nearby branch or dealership, subject to availability.
+
+--- PROTECCION ------------------------------------------------------------
+proteccion.protecci_n_y_verificaci_n
+    Protection & verification
+proteccion.compra_protegida
+    Protected purchase
+proteccion.transacci_n_supervisada
+    Supervised transaction
+proteccion.validaci_n_ante_autoridades
+    Verification with relevant authorities
+proteccion.inspecci_n_vehicular
+    Vehicle inspection
+proteccion.revisi_n_de_150_puntos
+    150-point inspection
+proteccion.diagn_stico_mec_nico
+    Mechanical diagnostics
+
+--- RESPALDO --------------------------------------------------------------
+respaldo.informaci_n_clave_que_respalda_tu_compra
+    Key information supporting your purchase.
+respaldo.protecci_n_del_importe
+    AMOUNT PROTECTION
+respaldo.el_pago_permanece_protegido_mientras_val
+    Your payment remains protected while we validate the transaction.
+respaldo.liberaci_n_segura
+    SECURE RELEASE
+respaldo.el_pago_se_libera_una_vez_confirmada_la_
+    Payment is released once receipt of the vehicle has been confirmed.
+respaldo.transacci_n_supervisada
+    SUPERVISED TRANSACTION
+respaldo.dulceauto_supervisa_y_verifica_el_proces
+    DulceAuto supervises and verifies the payment process.
+respaldo.inspecci_n_vehicular_completada
+    VEHICLE INSPECTION COMPLETED
+respaldo.revisi_n_est_tica_mec_nica_y_documental_
+    Cosmetic, mechanical, and document inspection completed and recorded.
+
+--- QR --------------------------------------------------------------------
+qr.escanea_para_verificar
+    Scan to verify
+
+--- REPRESENTANTE ---------------------------------------------------------
+representante.tu_representante_asignado
+    Your assigned representative
+representante.representante_de_operaciones
+    Operations representative
+
+--- LEGAL -----------------------------------------------------------------
+legal.esta_pre_factura_se_emite_exclusivamente
+    This proforma invoice is issued exclusively in the name of
+legal.y_es_de_uso_personal_e_intransferible_la
+    and is for personal, non-transferable use. The information contained in this document must be used solely for the stated purpose. Any distribution, reproduction, or use other than as authorized is strictly prohibited.
+
+--- CABECERA --------------------------------------------------------------
+cabecera.dulceauto  [texto alternativo]
+    DulceAuto
+cabecera.c_digo_de_barras_del_folio_res_87241  [texto alternativo]
+    Barcode for reference RES-87241
+
+--- INTRO -----------------------------------------------------------------
+intro.progreso_de_la_pre_reserva  [texto alternativo]
+    Pre-reservation progress
+
+--- VEHICULO --------------------------------------------------------------
+vehiculo.vista_principal_del_audi_a3_plateado  [texto alternativo]
+    Main view of the silver Audi A3
+vehiculo.galer_a_del_veh_culo  [texto alternativo]
+    Vehicle gallery
+vehiculo.vista_trasera_del_audi_a3  [texto alternativo]
+    Rear view of the Audi A3
+vehiculo.interior_del_audi_a3  [texto alternativo]
+    Audi A3 interior
+vehiculo.vista_exterior_del_audi_a3  [texto alternativo]
+    Exterior view of the Audi A3
+
+--- QR --------------------------------------------------------------------
+qr.verificar_la_reserva_res_87241  [texto alternativo]
+    Verify reservation RES-87241
+qr.c_digo_qr_para_verificar_la_reserva_res_  [texto alternativo]
+    QR code to verify reservation RES-87241
+
+
+==============================================================================
+VALORES DINAMICOS — no hace falta traducirlos, los pondra el backend:
+
+  {{folio}}   ejemplo actual: RES-87241
+  {{fecha_emision}}   ejemplo actual: 22 Jul 2026
+  {{estado}}   ejemplo actual: PAGO PENDIENTE
+  {{fecha_entrega}}   ejemplo actual: 27 de julio de 2026
+  {{cliente_nombre}}   ejemplo actual: Juan Pérez García
+  {{cliente_email}}   ejemplo actual: juan.perez@gmail.com
+  {{cliente_ciudad}}   ejemplo actual: Veracruz
+  {{folio}}   ejemplo actual: RES-87241
+  {{autorizacion}}   ejemplo actual: AUT-2026-87241
+  {{estado}}   ejemplo actual: Pago pendiente
+  {{vin}}   ejemplo actual: 19UTC2895KL500992
+  {{vehiculo}}   ejemplo actual: 2015 Audi A3 1.8T S Line Convertible AT
+  {{vehiculo_ubicacion}}   ejemplo actual: Ciudad de México
+  {{tipo}}   ejemplo actual: Convertible
+  {{kilometraje}}   ejemplo actual: 16,678 km
+  {{combustible}}   ejemplo actual: Gasolina
+  {{transmision}}   ejemplo actual: Automática
+  {{descuento}}   ejemplo actual: 9% DE DESCUENTO APLICADO
+  {{vehiculo}}   ejemplo actual: 2015 Audi A3 1.8T S Line Convertible AT
+  {{precio_vehiculo}}   ejemplo actual: $329,000.00 MXN
+  {{banco}}   ejemplo actual: BBVA México
+  {{beneficiario}}   ejemplo actual: DulceAuto México S.A. de C.V.
+  {{folio}}   ejemplo actual: RES-87241
+  {{agente_iniciales}}   ejemplo actual: YC
+  {{agente_nombre}}   ejemplo actual: Yoselina de la Cruz
+  {{agente_horario}}   ejemplo actual: Lunes a viernes, 8:00 a. m.–4:00 p. m.
+  {{agente_email}}   ejemplo actual: soporte@dulceauto.mx
+  {{cliente_nombre}}   ejemplo actual: Juan Pérez García

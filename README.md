@@ -21,6 +21,7 @@ assets/fonts/*.woff2       Inter incrustada en local (SIL OFL 1.1)
 assets/icons/*.svg         iconos sueltos, archivos fuente
 assets/img/                fotos del vehiculo + QR y codigo de barras en SVG
 
+textos/textos-*.txt        textos fuente de cada version (origen de la verdad)
 calibrar-impresion.py      recalcula el ajuste de impresion de cada idioma
 extraer-textos.py          saca todos los textos traducibles de una version
 traducir.py                genera una version de idioma desde la plantilla es-MX
@@ -126,6 +127,19 @@ que no se puede colar un texto a medias.
 Los ajustes propios de un idioma van en el bloque `<style>` de su HTML. Ahora
 mismo solo hay uno: en ingles la columna del titulo pasa de 230px a 270px,
 porque "Vehicle Reservation Proforma Invoice" no cabe en una linea a 230px.
+
+### Cuidado al cambiar los textos de es-MX
+
+Las claves de los archivos de `textos/` se derivan del propio texto de la
+plantilla es-MX. Si se cambia la redaccion de es-MX, las claves de esa frase
+cambian y los archivos de EN y es-AR dejan de encajar en esas lineas.
+
+Al hacerlo hay que reetiquetar los otros dos archivos. La comprobacion de que
+salio bien es que `traducir.py` siga diciendo 95 de 95 y que el HTML generado
+no cambie respecto al anterior salvo en lo que se queria cambiar.
+
+Para el backend del Milestone 2 conviene pasar a claves fijas por posicion en
+lugar de derivadas del texto, y este problema desaparece.
 
 
 ## Notas de mantenimiento
