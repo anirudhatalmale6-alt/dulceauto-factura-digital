@@ -22,7 +22,10 @@ assets/icons/*.svg         iconos sueltos, archivos fuente
 assets/img/                fotos del vehiculo + QR y codigo de barras en SVG
 
 pdf/DulceAuto-*.pdf        los tres PDF A4 ya generados
-textos/textos-*.txt        textos fuente de cada version (origen de la verdad)
+textos/textos-en.txt       textos de la version inglesa
+textos/textos-es-AR.txt    textos de la version argentina
+textos/textos-es-MX.txt    los cambios de redaccion aplicados a es-MX
+textos/*-completo.*        volcado de TODOS los textos de es-MX, de referencia
 calibrar-impresion.py      recalcula el ajuste de impresion de cada idioma
 extraer-textos.py          saca todos los textos traducibles de una version
 traducir.py                genera una version de idioma desde la plantilla es-MX

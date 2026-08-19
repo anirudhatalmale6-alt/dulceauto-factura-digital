@@ -12,14 +12,14 @@ cabecera.fecha
     Fecha:
 
 --- INTRO -----------------------------------------------------------------
-intro.tu_veh_culo_est_reservado
-    Tu vehículo está reservado
+intro.tu_veh_culo_est_pre_reservado
+    Tu vehículo está pre-reservado
 intro.confirma_el_pago_para_iniciar_la_validac
-    Confirma el pago para iniciar la validación de la operación y posteriormente coordinar la entrega.
+    Confirma el pago para iniciar la validación de la operación y continuar con la coordinación de la entrega.
 intro.entrega
     Entrega
-intro.reserva_confirmada
-    Reserva confirmada
+intro.pre_reserva_confirmada
+    Pre-reserva confirmada
 intro.pago_pendiente_2
     Pago pendiente
 intro.documentaci_n_y_tr_mites
@@ -56,8 +56,8 @@ transaccion.informaci_n_de_la_transacci_n
     INFORMACIÓN DE LA TRANSACCIÓN
 transaccion.folio
     Folio
-transaccion.vigencia_protecci_n
-    Vigencia protección
+transaccion.vigencia_de_la_protecci_n
+    Vigencia de la protección
 transaccion.autorizaci_n
     Autorización
 transaccion.estado_actual
@@ -75,15 +75,15 @@ vehiculo.compra_segura
 vehiculo.modalidad_de_entrega
     Modalidad de entrega
 vehiculo.entrega_a_domicilio_transporte_terrestre
-    Entrega a domicilio (Transporte terrestre)
+    Entrega a domicilio (transporte terrestre asegurado)
 vehiculo.traslado_asegurado_hasta_el_domicilio_re
     Traslado asegurado hasta el domicilio registrado.
 vehiculo.entrega_en_una_sede_o_concesionario_cerc
     Entrega en una sede o concesionario cercano
-vehiculo.puedes_solicitar_la_entrega_en_una_sede_
-    Puedes solicitar la entrega en una sede o concesionario disponible cercano, sin cargos adicionales. La disponibilidad y los detalles serán confirmados durante la coordinación.
-vehiculo.cancelaciones_sujetas_a_los_t_rminos_apl
-    Cancelaciones sujetas a los términos aplicables si el vehículo no coincide con esta factura.
+vehiculo.tambi_n_puedes_solicitar_la_entrega_en_u
+    También puedes solicitar la entrega en una sede o concesionario cercano, sin cargos adicionales. La disponibilidad, ubicación y los detalles de entrega se confirmarán durante la coordinación.
+vehiculo.si_el_veh_culo_no_coincide_con_la_inform
+    Si el vehículo no coincide con la información indicada en esta pre-factura, se aplicarán los términos de cancelación correspondientes.
 vehiculo.a_o
     Año
 vehiculo.tipo
@@ -116,8 +116,8 @@ operacion.importe_de_pre_reserva
     IMPORTE DE PRE-RESERVA
 operacion.se_descontar_del_precio_final
     SE DESCONTARÁ DEL PRECIO FINAL
-operacion.el_importe_de_pre_reserva_confirma_el_ap
-    El importe de pre-reserva confirma el apartado del vehículo y se aplicará al precio final de la operación. El transporte terrestre asegurado está incluido.
+operacion.el_importe_de_la_pre_reserva_confirma_la
+    El importe de la pre-reserva confirma la reserva del vehículo y se descontará del precio final de la operación. El transporte terrestre asegurado está incluido.
 
 --- TRANSFERENCIA ---------------------------------------------------------
 transferencia.datos_para_realizar_tu_transferencia_spe
@@ -131,23 +131,23 @@ transferencia.referencia_de_pago
 transferencia.clabe_interbancaria_18_d_gitos
     CLABE Interbancaria (18 dígitos)
 transferencia.cuenta_bancaria
-    Cuenta Bancaria
+    Cuenta bancaria
 
 --- FAQ -------------------------------------------------------------------
 faq.preguntas_frecuentes
     Preguntas frecuentes
-faq.1_el_precio_incluye_comisiones_y_gastos_
-    1. ¿El precio incluye comisiones y gastos adicionales?
+faq.1_el_precio_indicado_incluye_comisiones_
+    1. ¿El precio indicado incluye comisiones y gastos adicionales?
 faq.s_el_propietario_cubre_los_gastos_relaci
-    Sí. El propietario cubre los gastos relacionados con la operación, incluyendo la gestión, baja de placas y entrega en una sede cercana o transporte asegurado a domicilio. Usted pagará únicamente el importe indicado en la factura, sin cargos extras.
+    Sí. El propietario cubre los gastos relacionados con la operación, incluyendo la gestión administrativa y la entrega en una sede cercana o el transporte asegurado a domicilio. El único importe a pagar es el indicado en la factura, sin cargos adicionales.
 faq.2_puedo_revisar_el_veh_culo_antes_de_ace
     2. ¿Puedo revisar el vehículo antes de aceptar la entrega?
-faq.por_supuesto_al_recibirlo_podr_inspeccio
-    Por supuesto. Al recibirlo, podrá inspeccionarlo personalmente o con un mecánico de confianza. En caso de no quedar conforme, deberá informarlo al representante asignado antes de finalizar la operación.
+faq.s_al_recibir_el_veh_culo_puedes_revisarl
+    Sí. Al recibir el vehículo, puedes revisarlo personalmente o con un mecánico de confianza. Si no estás conforme, avísale al representante asignado antes de finalizar la operación.
 faq.3_puedo_solicitar_la_entrega_en_una_dire
-    3. ¿Puedo solicitar la entrega en una dirección distinta a la de mi INE?
-faq.s_despu_s_de_confirmar_el_apartado_podr_
-    Sí. Después de confirmar el apartado, podrá compartir el comprobante y la dirección donde desea recibir el vehículo. También puede solicitar la entrega en una sede o concesionario cercano, según disponibilidad.
+    3. ¿Puedo solicitar la entrega en una dirección distinta a la registrada en mi INE?
+faq.s_despu_s_de_confirmar_la_pre_reserva_pu
+    Sí. Después de confirmar la pre-reserva, puedes enviar el comprobante y la dirección donde quieres recibir el vehículo. También puedes solicitar la entrega en una sede o concesionario cercano, sujeto a disponibilidad.
 
 --- PROTECCION ------------------------------------------------------------
 proteccion.protecci_n_y_verificaci_n
@@ -160,8 +160,8 @@ proteccion.validaci_n_ante_autoridades
     Validación ante autoridades
 proteccion.inspecci_n_vehicular
     Inspección vehicular
-proteccion.revisi_n_150_puntos
-    Revisión 150 puntos
+proteccion.revisi_n_de_150_puntos
+    Revisión de 150 puntos
 proteccion.diagn_stico_mec_nico
     Diagnóstico mecánico
 
@@ -174,20 +174,20 @@ respaldo.el_pago_permanece_protegido_mientras_val
     El pago permanece protegido mientras validamos la operación.
 respaldo.liberaci_n_segura
     LIBERACIÓN SEGURA
-respaldo.el_pago_se_libera_tras_confirmar_la_rece
-    El pago se libera tras confirmar la recepción.
+respaldo.el_pago_se_libera_una_vez_confirmada_la_
+    El pago se libera una vez confirmada la recepción del vehículo.
 respaldo.transacci_n_supervisada
     TRANSACCIÓN SUPERVISADA
-respaldo.la_plataforma_de_pagos_dulceauto_verific
-    La plataforma de pagos DulceAuto verifica el proceso.
-respaldo.inspecci_n_completada
-    INSPECCIÓN COMPLETADA
+respaldo.dulceauto_supervisa_y_verifica_el_proces
+    DulceAuto supervisa y verifica el proceso de pago.
+respaldo.inspecci_n_vehicular_completada
+    INSPECCIÓN VEHICULAR COMPLETADA
 respaldo.revisi_n_est_tica_mec_nica_y_documental_
-    Revisión estética, mecánica y documental registrada.
+    Revisión estética, mecánica y documental completada y registrada.
 
 --- QR --------------------------------------------------------------------
-qr.escanea_para_verificaci_n
-    Escanea para verificación
+qr.escanea_para_verificar
+    Escanea para verificar
 
 --- REPRESENTANTE ---------------------------------------------------------
 representante.tu_representante_asignado
@@ -196,10 +196,10 @@ representante.representante_de_operaciones
     Representante de operaciones
 
 --- LEGAL -----------------------------------------------------------------
-legal.esta_pre_factura_est_elaborada_exclusiva
-    Esta pre-factura está elaborada exclusivamente para el Sr(a).
-legal.y_es_de_uso_personal_e_intransferible_in
-    y es de uso personal e intransferible. Información contenida en este documento deberá ser utilizada únicamente para el propósito indicado. Cualquier distribución, reproducción o uso distinto al autorizado queda estrictamente prohibido.
+legal.esta_pre_factura_se_emite_exclusivamente
+    Esta pre-factura se emite exclusivamente a nombre de
+legal.y_es_de_uso_personal_e_intransferible_la
+    y es de uso personal e intransferible. La información contenida en este documento deberá utilizarse únicamente para el propósito indicado. Queda estrictamente prohibida cualquier distribución, reproducción o uso distinto al autorizado.
 
 --- CABECERA --------------------------------------------------------------
 cabecera.dulceauto  [texto alternativo]
@@ -208,8 +208,8 @@ cabecera.c_digo_de_barras_del_folio_res_87241  [texto alternativo]
     Código de barras del folio RES-87241
 
 --- INTRO -----------------------------------------------------------------
-intro.progreso_de_la_reserva  [texto alternativo]
-    Progreso de la reserva
+intro.progreso_de_la_pre_reserva  [texto alternativo]
+    Progreso de la pre-reserva
 
 --- VEHICULO --------------------------------------------------------------
 vehiculo.vista_principal_del_audi_a3_plateado  [texto alternativo]
