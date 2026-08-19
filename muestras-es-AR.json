@@ -1,0 +1,15 @@
+{
+  "estado": "Pago pendiente",
+  "vehiculo_ubicacion": "Buenos Aires",
+  "cliente_ciudad": "Córdoba",
+  "cliente_telefono": "11 1234 5678",
+  "combustible": "Nafta",
+  "transmision": "Automática",
+  "banco": "BBVA Argentina",
+  "beneficiario": "DulceAuto Argentina S.A.",
+  "clabe": "0123456789012345678901",
+  "precio_vehiculo": "$329,000.00 ARS",
+  "moneda": "ARS",
+  "agente_telefono": "+54 11 9876 5432",
+  "agente_email": "soporte@dulceauto.com.ar"
+}

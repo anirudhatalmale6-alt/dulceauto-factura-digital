@@ -678,8 +678,12 @@ td .icon { width: 15px; height: 15px; margin-right: 4px; vertical-align: -3px; }
   .carfax { margin-top: 10px; }
   .payment-heading { flex-direction: column; }
   .discount-pill { align-self: flex-start; }
-  .total { gap: 12px; }
-  .amount { text-align: right; }
+  /* En movil el bloque del total se apila: la etiqueta "SE DESCONTARA DEL
+     PRECIO FINAL" es bastante mas larga en ingles y, en una sola fila,
+     empujaba el importe fuera de su caja a 430px. */
+  .total { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .total-tag { width: auto; white-space: normal; }
+  .amount { text-align: left; }
   .clabe { letter-spacing: .8px; }
   .faq-item { grid-template-columns: 28px 1fr; gap: 10px; }
 }

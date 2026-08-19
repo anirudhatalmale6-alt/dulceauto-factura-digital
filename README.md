@@ -4,8 +4,8 @@ Factura digital en HTML + CSS, preparada para verse en pantalla, imprimirse en
 **A4 a una sola página** y alimentar después la generación de PDF desde
 backend.
 
-Estado actual: **versión es-MX terminada**. Las versiones `en/` y `es-AR/` se
-generan sobre esta misma base una vez aprobada.
+Estado actual: **las tres versiones terminadas**, cada una con su PDF A4 de una
+sola página.
 
 ---
 
@@ -13,8 +13,8 @@ generan sobre esta misma base una vez aprobada.
 
 ```
 es-MX/factura.html         version español de México
-en/invoice.html            (pendiente de los textos)
-es-AR/factura.html         (pendiente de los textos)
+en/invoice.html            version English
+es-AR/factura.html         version español de Argentina
 
 assets/css/factura.css     hoja de estilos UNICA, compartida por las 3 versiones
 assets/fonts/*.woff2       Inter incrustada en local (SIL OFL 1.1)
@@ -22,6 +22,9 @@ assets/icons/*.svg         iconos sueltos, archivos fuente
 assets/img/                fotos del vehiculo + QR y codigo de barras en SVG
 
 calibrar-impresion.py      recalcula el ajuste de impresion de cada idioma
+extraer-textos.py          saca todos los textos traducibles de una version
+traducir.py                genera una version de idioma desde la plantilla es-MX
+muestras-<idioma>.json     valores de muestra de los data-field por idioma
 ```
 
 Un solo CSS para las tres versiones: cualquier retoque se aplica a las tres a
@@ -51,6 +54,14 @@ Cada versión de idioma lleva sus propios valores en un bloque `<style>` corto:
   :root { --print-scale: 0.8066; --print-height: 1051px; }
 </style>
 ```
+
+Valores calibrados actualmente:
+
+| version | --print-scale | --print-height |
+|---------|---------------|----------------|
+| es-MX   | 0.8066        | 1051px         |
+| en      | 0.8066        | 1051px         |
+| es-AR   | 0.8066        | 1051px         |
 
 ### Al cambiar textos, recalibrar
 
@@ -98,6 +109,24 @@ Al cambiar el folio o la URL de verificación hay que regenerar los dos
 archivos.
 
 ---
+
+## Generar o regenerar una version de idioma
+
+```bash
+python3 traducir.py DulceAuto_textos_EN.txt en/invoice.html en
+python3 calibrar-impresion.py en/invoice.html
+```
+
+`traducir.py` parte SIEMPRE de `es-MX/factura.html` y sustituye unicamente
+textos: no toca el marcado, ni las clases, ni los `data-field`, ni el sprite.
+Por esa via el VIEW aprobado no se puede romper. Al terminar avisa de cualquier
+clave sin traducir y de cualquier clave del archivo que no se haya usado, asi
+que no se puede colar un texto a medias.
+
+Los ajustes propios de un idioma van en el bloque `<style>` de su HTML. Ahora
+mismo solo hay uno: en ingles la columna del titulo pasa de 230px a 270px,
+porque "Vehicle Reservation Proforma Invoice" no cabe en una linea a 230px.
+
 
 ## Notas de mantenimiento
 
